@@ -11,7 +11,9 @@ const Hero = () => {
         class={tw`container mx-auto px-4 min-h-[90vh] mt-10 lg:flex gap-8`}
       >
         <picture>
+          <source srcset='images/profile.avif' type='image/avif' />
           <img
+            type='image/webp'
             src='images/profile.webp'
             alt='Potrait Muhammad Sony Fauzi'
             width={800}
@@ -152,7 +154,10 @@ export default function Home() {
         <title>Arzivre</title>
         <link rel='stylesheet' href='/index.css' />
         <meta name='description' content='Web Developer, Penulis' />
-        <meta property='og:image' content='images/profile.webp' />
+        <meta
+          property='og:image'
+          content={`https://arzivre.deno.dev/images/profile.webp`}
+        />
       </Head>
 
       <Layout>
