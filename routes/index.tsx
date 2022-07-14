@@ -1,5 +1,4 @@
 /** @jsx h */
-import { Head } from '$fresh/src/runtime/head.ts'
 import { Fragment, h } from 'preact'
 import Layout from '../components/Layout.tsx'
 import { tw } from '@twind'
@@ -154,15 +153,6 @@ const ProjectKopiLokal = () => {
 export default function Home() {
   return (
     <Fragment>
-      <Head>
-        <title>Arzivre</title>
-        <link rel='stylesheet' href='/index.css' />
-        <meta name='description' content='Web Developer, Penulis' />
-        <meta
-          property='og:image'
-          content={`https://arzivre.deno.dev/images/profile.webp`}
-        />
-      </Head>
 
       <Layout>
         <main role='main' class={tw`container mx-auto px-4`}>
