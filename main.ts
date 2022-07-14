@@ -22,6 +22,7 @@ setup({
 })
 
 function render(ctx: RenderContext, render: InnerRenderFunction) {
+  ctx.lang = 'id'
   const snapshot = ctx.state.get('twind') as unknown[] | null
   sheet.reset(snapshot || undefined)
   render()
