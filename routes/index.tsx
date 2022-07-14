@@ -20,7 +20,7 @@ const Hero = () => {
           />
         </picture>
         <section class={tw`mb-4`}>
-          <h1 class={tw`text-[calc(1em+6vh)] font-bold mb-4`}>
+          <h1 class={tw`text-[calc(1em+6vw)] font-bold mb-4`}>
             Muhammad Sony Fauzi
           </h1>
           <h2 class={tw`text-[calc(1em+5vh)] font-thin`}>Web Developer,</h2>
