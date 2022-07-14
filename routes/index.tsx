@@ -64,7 +64,7 @@ const ProjectHouseOfJesho = () => {
       </div>
       <div class={tw`md:flex gap-4`}>
         <picture class={tw`mb-4 text-[0px] border-4 border-gray-900`}>
-          <source srcset='images/profile.avif' type='image/avif' />
+          <source srcset='images/house-of-jesho.avif' type='image/avif' />
           <img
             type='image/webp'
             src='images/house-of-jesho.webp'
@@ -114,7 +114,7 @@ const ProjectKopiLokal = () => {
       </div>
       <div class={tw`md:flex gap-4`}>
         <picture class={tw`mb-4 text-[0px] border-4 border-gray-900`}>
-          <source srcset='images/profile.avif' type='image/avif' />
+          <source srcset='images/kopi-lokal.avif' type='image/avif' />
           <img
             type='image/avif'
             src='images/kopi-lokal.webp'
